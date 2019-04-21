@@ -89,8 +89,7 @@ footer {
 
 /*PORTFOLIO CARDS*/
 .card{
-    float: left;
-    margin: 40px 40px 0px 0px;
+    width: 96%;
 }
 
 .overlay {
@@ -98,9 +97,13 @@ footer {
     color: white;
     text-align: center;
     position: relative;
-    width: 240px;
+    width: 100%;
     top: -80px;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.cardImg {
+    width: 100%;
 }
 
 /*FORM*/
@@ -137,6 +140,11 @@ input[type="button"]{
         float: right;
         text-align: left;
         margin-top: 20px;
+    }
+    .card{
+        float: left;
+        width: auto;
+        margin: 40px 40px 0px 0px;
     }
   }
 
