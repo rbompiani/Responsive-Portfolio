@@ -95,15 +95,6 @@ main {
     }
   }
 
-@media only screen and (min-width: 980px) {
-
-
-  }
-
-
-
-
-
 
 /*FOOTER*/
 footer {
@@ -138,7 +129,7 @@ footer {
 
 /*FORM*/
 input[type="text"], textarea{
-    width: 884px;
+    width: 96%;
     padding: 8px;
     margin: 10px 0px 10px 0px;
 }
