@@ -1,0 +1,153 @@
+
+
+/*OVERALL STYLING (make this mobile first)*/
+body {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../images/white-waves.png);
+    margin: 0px;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color:#777777;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 30px;
+    margin: -8px 0px 30px 0px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.floatimg {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*HEADER*/
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    color: red;
+    margin-bottom: 30px;
+}
+
+nav {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+nav a{
+    margin: 10px;
+}
+
+/*MAIN CONTENT*/
+main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: 0px 20px 0px 20px;
+    padding: 30px 30px 100px 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 650px;
+    }
+
+    .floatimg {
+        float: left;
+        width: auto;
+        padding-right: 20px;
+    }
+
+    h1 {
+        display: inline-block;
+    }
+    nav {
+        float: right;
+        text-align: left;
+        margin-top: 20px;
+    }
+  }
+
+@media only screen and (min-width: 980px) {
+
+
+  }
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #666666;
+    border-top: 3px solid #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-size: small;
+}
+
+
+
+/*PORTFOLIO CARDS*/
+.card{
+    float: left;
+    margin: 40px 40px 0px 0px;
+}
+
+.overlay {
+    background-color:#4aaaa5;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 240px;
+    top: -80px;
+    padding: 20px;
+}
+
+/*FORM*/
+input[type="text"], textarea{
+    width: 884px;
+    padding: 8px;
+    margin: 10px 0px 10px 0px;
+}
+
+input[type="button"]{
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
