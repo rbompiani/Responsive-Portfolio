@@ -74,28 +74,6 @@ main {
     padding: 30px 30px 100px 30px;
 }
 
-@media only screen and (min-width: 768px) {
-    main {
-        width: 650px;
-    }
-
-    .floatimg {
-        float: left;
-        width: auto;
-        padding-right: 20px;
-    }
-
-    h1 {
-        display: inline-block;
-    }
-    nav {
-        float: right;
-        text-align: left;
-        margin-top: 20px;
-    }
-  }
-
-
 /*FOOTER*/
 footer {
     background-color: #666666;
@@ -108,8 +86,6 @@ footer {
     width: 100%;
     font-size: small;
 }
-
-
 
 /*PORTFOLIO CARDS*/
 .card{
@@ -141,4 +117,27 @@ input[type="button"]{
     padding: 10px 20px 10px 20px;
     text-align: center;
 }
+
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 650px;
+    }
+
+    .floatimg {
+        float: left;
+        width: auto;
+        padding-right: 20px;
+    }
+
+    h1 {
+        display: inline-block;
+    }
+    nav {
+        float: right;
+        text-align: left;
+        margin-top: 20px;
+    }
+  }
+
 
